@@ -1,0 +1,6 @@
+@Balance.App_HostAddress = http://localhost:3003
+
+GET {{Balance.App_HostAddress}}/balances/1232b62f-5b34-4b8a-9f7a-1a349390a353
+Accept: application/json
+
+###
