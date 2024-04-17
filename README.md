@@ -2,7 +2,7 @@
 Este repositório contém um microsserviço Balance.App desenvolvido em .NET para gerenciar os saldos das contas, integrado com o microsserviço Wallet Core feito com Go através do Apache Kafka. O microsserviço Balance.App é capaz de receber eventos gerados pelo Wallet Core através do Kafka e persistir os saldos atualizados no banco de dados.
 
 # Funcionalidades
-Recebe eventos via Kafka do microsserviço Wallet Core através do tópico `balances`e persiste os saldos atualizados no banco de dados PostgreSQL.
+O microsserviço Balance.App recebe eventos via Kafka do microsserviço Wallet Core através do tópico `balances`e persiste os saldos atualizados no banco de dados PostgreSQL.
 
 # Como Executar
 Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
