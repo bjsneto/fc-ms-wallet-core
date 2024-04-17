@@ -7,7 +7,7 @@ O microsserviço Balance.App recebe eventos via Kafka do microsserviço Wallet C
 # Como Executar
 Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
 
-1. Clone este repositório: git clone https://github.com/bjsneto/fc-ms-wallet-core.git
+1. Clone este repositório: `git clone https://github.com/bjsneto/fc-ms-wallet-core.git`
 2. Navegue até o diretório clonado: `cd fc-ms-wallet-core`
 3. Execute `docker-compose up -d` para iniciar todos os serviços.
 4. Aguarde até que todos os serviços estejam disponíveis.
