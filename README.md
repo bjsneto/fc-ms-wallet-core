@@ -14,7 +14,7 @@ Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
 
 
 # Testando o Microsserviço
-Utilize o arquivo `.http` fornecido para realizar chamadas ao microsserviço Wallet Core. Utilize o endpoint ` POST /transactions` para realizar uma transação. O microsserviço Balance.App receberá essa transação via Kafka e persistirá no banco de dados. Utilize o endpoint `GET /balances/{account_id}` fornecido no microsserviço Balance.App no arquivo .http para consultar o saldo atualizado pelo microsserviço Wallet Core.
+Utilize o arquivo `.http` fornecido para realizar chamadas ao microsserviço Wallet Core. Utilize o endpoint ` POST /transactions` para realizar uma transação. O microsserviço Balance.App receberá essa transação via Kafka e persistirá no banco de dados. Utilize o endpoint `GET /balances/{account_id}` fornecido no microsserviço Balance.App no arquivo `.http` para consultar o saldo atualizado pelo microsserviço Wallet Core.
 
-Observações
+# Observações
 Este desafio tem como objetivo principal compreender os conceitos de produção e consumo de eventos em uma arquitetura de microsserviços.
