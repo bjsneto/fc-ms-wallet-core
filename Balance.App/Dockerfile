@@ -19,5 +19,5 @@ RUN apt-get update && apt-get install -y wget \
     && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
 
 
-CMD dockerize -wait tcp://postgres:5432 -timeout 60s && dotnet Balance.App.dll
+CMD dockerize -wait tcp://postgres:5432,tcp://kafka:9092 -timeout 60s && dotnet Balance.App.dll
 
